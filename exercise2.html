@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  
+   <script>
+    $(document).ready(function(){
+      $("#b1").click(function(){
+         $("p:first").hide();
+      });
+      $("#b2").click(function(){
+         $("#test2").hide();
+      });
+      $("#b3").click(function(){
+         $(".test3").hide();
+      });
+    });
+   
+
+   </script>
+   </head>
+   <body>
+   <h2>Web Programmimg</h2>
+   <p>Hide Paragraph 1</p>
+   <p id="test2">Hide Paragraph 2</p>
+   <p class="test3">Hide Paragraph 3</p>
+   <button id="b1">Hide p1</button>
+   <button id="b2">Hide p2</button>
+   <button id="b3">Hide p3</button>
+   </body>
+
+</html>
